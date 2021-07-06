@@ -32,7 +32,7 @@ p{
     padding-bottom: 15px;
 }
 .first-highlight {
-    color:#FF8367;
+    color:rgb(182, 35, 35);
 }
 .half-width{
     width: 40%;
@@ -58,7 +58,9 @@ section{
 
 .link-button{
 text-decoration: none;
-background-color: orangered;
+/* background-color: orangered; */
+background-image: linear-gradient(to right,orangered,red);
+box-shadow: 1px 1px 8px red;
 border-radius: 20px;
 color: white;
 padding: 10px 20px;
@@ -88,12 +90,12 @@ img{
 .single-rec{
     border-radius: 20px;
     background-color: white;
-    box-shadow: 2px 1px 8px black;
+    box-shadow: 1px 1px 8px gray;
 }
 .triple-rec{
     width: 25%;
     float: left;
-    margin-left: 2%;
+    margin-left: 4%;
     padding: 1.5%;
     /* display: inline-block; */
 
