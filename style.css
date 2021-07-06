@@ -2,8 +2,8 @@ body{
     margin: 0;
     font-family:'Times New Roman', Times, serif;
     font-style: normal;
-    /* background-color: wheat; */
 }
+/* for bonus */
 .menu{
     text-align: right;
      margin-top: 50px;
@@ -52,13 +52,11 @@ p{
 
 section{
     height: 400px;
-    /* margin-bottom: 50px;*/
 } 
 
 
 .link-button{
 text-decoration: none;
-/* background-color: orangered; */
 background-image: linear-gradient(to right,orangered,red);
 box-shadow: 1px 1px 8px red;
 border-radius: 20px;
@@ -73,11 +71,6 @@ padding: 10px 20px;
     padding: 30px;
     text-align: center;
 }
-/* .work-head{
-    text-align: center;
-    font-weight: 800;
-    height: 50px;
-} */
 
 .about-me{
     background-image: url(image/bg.jpg);
@@ -97,7 +90,7 @@ img{
     float: left;
     margin-left: 4%;
     padding: 1.5%;
-    /* display: inline-block; */
+    
 
 }
 .adjust-image{
@@ -121,7 +114,7 @@ small{
 }
 
 
-
+/* for bonus */
 .bonus{
     background-image: url(image/Front_photo.jpg);
     background-repeat: no-repeat;
