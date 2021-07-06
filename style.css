@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    /* background-color: wheat; */
+}
+.menu{
+    text-decoration: none;
+    text-align: right;
+     margin-top: 50px;
+    margin-right: 100px;
+    padding-bottom: 80px;
+} 
+.menu a{
+     padding-left: 5%; 
+
+}
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0px;
+}
+p{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.first-highlight {
+    color:#FF8367;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 50%;
+}
+.half-width h2{
+    margin-top: 50px;
+}
+
+section{
+    height: 400px;
+    /* margin-bottom: 50px;*/
+} 
+
+
+.link-button{
+text-decoration: none;
+background-color: orangered;
+border-radius: 20px;
+color: white;
+padding: 10px 20px;
+
+}
+.recepies-sec{
+    height: 600px;
+}
+.recepi-intro{
+    padding: 30px;
+    text-align: center;
+}
+/* .work-head{
+    text-align: center;
+    font-weight: 800;
+    height: 50px;
+} */
+
+.about-me{
+    background-image: url(image/bg.jpg);
+    height: 475px;
+}
+img{
+    width: 100%;
+
+}
+.single-rec{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 1px 8px black;
+}
+.triple-rec{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding: 1.5%;
+    /* display: inline-block; */
+
+}
+.adjust-image{
+    border-radius: 15px;
+}
+
+#bg-position{
+    /* background-image: url(image/Group_33094_1.png); */
+    width: 70%;
+   
+    position: absolute;
+    margin: 0 auto;
+    left: 20%;
+    top: 5%;
+
+}
+#work-inquiry{
+    position: relative;
+    top: 35%;
+    left: 30%;
+
+}
