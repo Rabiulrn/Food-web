@@ -5,15 +5,22 @@ body{
     /* background-color: wheat; */
 }
 .menu{
-    text-decoration: none;
     text-align: right;
      margin-top: 50px;
-    margin-right: 100px;
-    padding-bottom: 80px;
+    margin-right: 50px;
+    padding-bottom: 20px;
 } 
 .menu a{
-     padding-left: 5%; 
+     padding-left: 3%;
+     padding-right: 3%;
+     border: 2px solid blue;
+     text-decoration: none;
+     background-color: crimson;
+     box-shadow: 2px 1px 8px black;
 
+}
+.menu a:hover{
+    background-color: darkmagenta;
 }
 h1{
     font-weight: 700;
@@ -39,6 +46,9 @@ p{
 .half-width h2{
     margin-top: 50px;
 }
+.order-section{
+    padding-top: 100px;
+}
 
 section{
     height: 400px;
@@ -55,7 +65,7 @@ padding: 10px 20px;
 
 }
 .recepies-sec{
-    height: 600px;
+    height: 800px;
 }
 .recepi-intro{
     padding: 30px;
@@ -69,7 +79,7 @@ padding: 10px 20px;
 
 .about-me{
     background-image: url(image/bg.jpg);
-    height: 475px;
+    height: 428px;
 }
 img{
     width: 100%;
@@ -91,20 +101,44 @@ img{
 .adjust-image{
     border-radius: 15px;
 }
-
-#bg-position{
-    /* background-image: url(image/Group_33094_1.png); */
-    width: 70%;
-   
-    position: absolute;
-    margin: 0 auto;
-    left: 20%;
-    top: 5%;
-
+.footer{
+    height: 250px;
+    background-color: black;
+    text-align: center;
 }
-#work-inquiry{
-    position: relative;
-    top: 35%;
-    left: 30%;
-
+.footer h2{
+    color: gray;
+    padding-top: 80px;
 }
+small{
+    color: gray;
+    padding-top: 30px;
+}
+#footer-color{
+    color: orange;
+}
+
+
+
+.bonus{
+    background-image: url(image/Front_photo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: wheat;
+}
+.bonus h1{
+    padding-top: 40px;
+    padding-left: 30px;
+    color: red;
+}
+.bonus p{
+    color: white;
+    padding-left: 30px;
+}
+#explore-button{
+    margin-left: 30px;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+}
+
